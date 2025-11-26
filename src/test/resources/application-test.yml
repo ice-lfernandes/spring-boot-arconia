@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-boot-arconia-test
+
+  # Test profile configuration
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+  # Disable Kafka for tests
+  kafka:
+    bootstrap-servers: localhost:9092
+
+logging:
+  level:
+    io.arconia: DEBUG

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: arconia
+  labels:
+    app.kubernetes.io/name: arconia
+    app.kubernetes.io/part-of: spring-boot-arconia
